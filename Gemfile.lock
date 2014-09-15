@@ -57,6 +57,7 @@ GEM
     execjs (2.2.1)
     faker (1.4.3)
       i18n (~> 0.5)
+    fullcalendar-rails (1.6.4.0)
     heroku (3.10.3)
       heroku-api (~> 0.3.19)
       launchy (>= 0.3.2)
@@ -187,6 +188,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   database_cleaner (~> 1.2.0)
   faker
+  fullcalendar-rails
   heroku
   jasmine-rails
   jbuilder (~> 2.0)
