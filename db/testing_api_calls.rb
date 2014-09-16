@@ -25,4 +25,4 @@ require 'open-uri'
 uri = URI(url)
 response = Net::HTTP.get_response(uri)
 
-p response.body
+# response.body to get the xml response
