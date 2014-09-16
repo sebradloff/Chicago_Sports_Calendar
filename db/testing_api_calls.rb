@@ -19,6 +19,8 @@ require 'open-uri'
 # MLB season schedule
 # url = "http://api.sportsdatallc.org/mlb-t4/schedule/2014.xml?api_key=3ag896c8skgwy2z76dmhgf5x"
 
+# NCAAMF season schedule
+# url = "http://api.sportsdatallc.org/ncaafb-t1/2014/REG/schedule.xml?api_key=b85hg7mzswnm58gytmy8e85e"
 
 uri = URI(url)
 response = Net::HTTP.get_response(uri)
