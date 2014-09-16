@@ -16,6 +16,10 @@ require 'open-uri'
 # season hasn't started yet
 # url = "http://api.sportsdatallc.org/nba-t3/games/2013/REG/schedule.xml?api_key=g9vkejettza73je2zbvn2j3u"
 
+# MLB season schedule
+# url = "http://api.sportsdatallc.org/mlb-t4/schedule/2014.xml?api_key=3ag896c8skgwy2z76dmhgf5x"
+
+
 uri = URI(url)
 response = Net::HTTP.get_response(uri)
 
