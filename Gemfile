@@ -15,6 +15,7 @@ gem 'fullcalendar-rails'
 
 gem 'rails_12factor', group: :production
 gem 'spring', group: :development
+gem 'nokogiri'
 
 group :development, :test do
 	gem 'simplecov', :require => false
